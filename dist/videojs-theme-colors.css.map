@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIE,uCAAiD;ECHjD,gBAAgB,EDAG,OAA4B;ECC/C,gBAAgB,EAAE,oBAAoB;;ADEtC,uCAAiD;ECHjD,gBAAgB,EDAG,OAA4B;ECC/C,gBAAgB,EAAE,oBAAoB;;ADEtC,uCAAiD;ECHjD,gBAAgB,EDAG,OAA4B;ECC/C,gBAAgB,EAAE,oBAAoB;;ADEtC,wCAAiD;ECHjD,gBAAgB,EDAG,OAA4B;ECC/C,gBAAgB,EAAE,oBAAoB;;ADEtC,yCAAiD;ECHjD,gBAAgB,EDAG,OAA4B;ECC/C,gBAAgB,EAAE,oBAAoB;;ADEtC,yCAAiD;ECHjD,gBAAgB,EDAG,OAA4B;ECC/C,gBAAgB,EAAE,oBAAoB;;ADEtC,2CAAiD;ECHjD,gBAAgB,EDAG,OAA4B;ECC/C,gBAAgB,EAAE,oBAAoB",
+"sources": ["../src/components/_control-bar.scss","../src/_utilities.scss"],
+"names": [],
+"file": "videojs-theme-colors.css"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "videojs-theme-colors",
+  "version": "1.0.0",
+  "description": "Videojs default theme with pretty colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmcc/videojs-theme-colors.git"
+  },
+  "keywords": [
+    "Videojs"
+  ],
+  "author": "Matthew McClure <m@mmcc.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmcc/videojs-theme-colors/issues"
+  },
+  "homepage": "https://github.com/mmcc/videojs-theme-colors",
+  "devDependencies": {
+    "video.js": "^4.11.3"
+  }
+}

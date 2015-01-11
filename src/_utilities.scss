@@ -2,3 +2,14 @@
   background-color: $color;
   background-color: rgba($color, $alpha);
 }
+
+// This isn't working, but I think this is along the right path
+@mixin apply-color-pallet($component-class) {
+  @each $theme, $pallet in $colors {
+    // We need to do the extra quotes in the $theme interpolation to silence some warnings.
+    // The SCSS compiler seems to think we're trying to use the pallet names as a color value.  ¯\_(ツ)_/¯
+    .vjs-theme-colors-#{""+ $theme} $component-class {
+      @content
+    }
+  }
+}

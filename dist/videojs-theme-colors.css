@@ -1,29 +1,155 @@
+.vjs-theme-colors-blue {
+  color: #66A8CC; }
+
+.vjs-theme-colors-pink {
+  color: #fff; }
+
+.vjs-theme-colors-grey {
+  color: #fff; }
+
+.vjs-theme-colors-green {
+  color: #fff; }
+
+.vjs-theme-colors-orange {
+  color: #fff; }
+
+.vjs-theme-colors-purple {
+  color: #fff; }
+
+.vjs-theme-colors-inverted {
+  color: #fff; }
+
 .vjs-theme-colors-blue .vjs-control-bar {
-  background-color: #0000ff;
-  background-color: rgba(0, 0, 255, 0.2); }
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.7); }
 
 .vjs-theme-colors-pink .vjs-control-bar {
   background-color: #0000ff;
-  background-color: rgba(0, 0, 255, 0.2); }
+  background-color: rgba(0, 0, 255, 0.7); }
 
 .vjs-theme-colors-grey .vjs-control-bar {
   background-color: #0000ff;
-  background-color: rgba(0, 0, 255, 0.2); }
+  background-color: rgba(0, 0, 255, 0.7); }
 
 .vjs-theme-colors-green .vjs-control-bar {
   background-color: #0000ff;
-  background-color: rgba(0, 0, 255, 0.2); }
+  background-color: rgba(0, 0, 255, 0.7); }
 
 .vjs-theme-colors-orange .vjs-control-bar {
   background-color: #0000ff;
-  background-color: rgba(0, 0, 255, 0.2); }
+  background-color: rgba(0, 0, 255, 0.7); }
 
 .vjs-theme-colors-purple .vjs-control-bar {
   background-color: #0000ff;
-  background-color: rgba(0, 0, 255, 0.2); }
+  background-color: rgba(0, 0, 255, 0.7); }
 
 .vjs-theme-colors-inverted .vjs-control-bar {
   background-color: #0000ff;
-  background-color: rgba(0, 0, 255, 0.2); }
+  background-color: rgba(0, 0, 255, 0.7); }
+
+.vjs-theme-colors-blue .vjs-slider {
+  background-color: #66A8CC;
+  background-color: rgba(102, 168, 204, 0.4); }
+
+.vjs-theme-colors-pink .vjs-slider {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.vjs-theme-colors-grey .vjs-slider {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.vjs-theme-colors-green .vjs-slider {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.vjs-theme-colors-orange .vjs-slider {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.vjs-theme-colors-purple .vjs-slider {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.vjs-theme-colors-inverted .vjs-slider {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.vjs-theme-colors-blue .vjs-load-progress {
+  background-color: #66A8CC;
+  background-color: rgba(102, 168, 204, 0.5); }
+
+.vjs-theme-colors-blue .vjs-play-progress {
+  background-color: #66A8CC; }
+
+.vjs-theme-colors-pink .vjs-load-progress {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.vjs-theme-colors-pink .vjs-play-progress {
+  background-color: #fff; }
+
+.vjs-theme-colors-grey .vjs-load-progress {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.vjs-theme-colors-grey .vjs-play-progress {
+  background-color: #fff; }
+
+.vjs-theme-colors-green .vjs-load-progress {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.vjs-theme-colors-green .vjs-play-progress {
+  background-color: #fff; }
+
+.vjs-theme-colors-orange .vjs-load-progress {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.vjs-theme-colors-orange .vjs-play-progress {
+  background-color: #fff; }
+
+.vjs-theme-colors-purple .vjs-load-progress {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.vjs-theme-colors-purple .vjs-play-progress {
+  background-color: #fff; }
+
+.vjs-theme-colors-inverted .vjs-load-progress {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.vjs-theme-colors-inverted .vjs-play-progress {
+  background-color: #fff; }
+
+.vjs-theme-colors-blue .vjs-big-play-button,
+.vjs-theme-colors-blue .vjs-big-play-button:focus, .vjs-theme-colors-blue:hover .vjs-big-play-button {
+  border-color: #66A8CC; }
+
+.vjs-theme-colors-pink .vjs-big-play-button,
+.vjs-theme-colors-pink .vjs-big-play-button:focus, .vjs-theme-colors-pink:hover .vjs-big-play-button {
+  border-color: #fff; }
+
+.vjs-theme-colors-grey .vjs-big-play-button,
+.vjs-theme-colors-grey .vjs-big-play-button:focus, .vjs-theme-colors-grey:hover .vjs-big-play-button {
+  border-color: #fff; }
+
+.vjs-theme-colors-green .vjs-big-play-button,
+.vjs-theme-colors-green .vjs-big-play-button:focus, .vjs-theme-colors-green:hover .vjs-big-play-button {
+  border-color: #fff; }
+
+.vjs-theme-colors-orange .vjs-big-play-button,
+.vjs-theme-colors-orange .vjs-big-play-button:focus, .vjs-theme-colors-orange:hover .vjs-big-play-button {
+  border-color: #fff; }
+
+.vjs-theme-colors-purple .vjs-big-play-button,
+.vjs-theme-colors-purple .vjs-big-play-button:focus, .vjs-theme-colors-purple:hover .vjs-big-play-button {
+  border-color: #fff; }
+
+.vjs-theme-colors-inverted .vjs-big-play-button,
+.vjs-theme-colors-inverted .vjs-big-play-button:focus, .vjs-theme-colors-inverted:hover .vjs-big-play-button {
+  border-color: #fff; }
 
 /*# sourceMappingURL=videojs-theme-colors.css.map */

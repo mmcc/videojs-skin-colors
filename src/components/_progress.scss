@@ -1,8 +1,12 @@
 @each $theme, $pallet in $colors {
-  $background-color: map-get($pallet, background);
+  $color: map-get($pallet, color);
   // We need to do the extra quotes in the $theme interpolation to silence some warnings.
   // The SCSS compiler seems to think we're trying to use the pallet names as a color value.  ¯\_(ツ)_/¯
-  .vjs-theme-colors-#{""+ $theme} .vjs-control-bar {
-    @include background-color-with-alpha($background-color, 0.7);
+  .vjs-theme-colors-#{""+ $theme} .vjs-load-progress {
+    @include background-color-with-alpha($color, 0.5);
+  }
+
+  .vjs-theme-colors-#{""+ $theme} .vjs-play-progress {
+    background-color: $color;
   }
 }

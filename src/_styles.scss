@@ -6,7 +6,7 @@
   .vjs-theme-colors-#{""+ $theme} {
     color: $color;
 
-    .vjs-control-bar, .vjs-big-play-button {
+    .vjs-control-bar, .vjs-big-play-button, .vjs-menu-content {
       @include background-color-with-alpha($background, 0.7);
     }
 
@@ -22,10 +22,26 @@
       @include background-color-with-alpha($color, 0.4);
     }
 
+    .vjs-volume-level {
+      background-color: $color;
+    }
+
     .vjs-big-play-button,
     .vjs-big-play-button:focus,
     &:hover .vjs-big-play-button {
       border-color: $color;
+    }
+
+    .vjs-menu-button ul li.vjs-selected {
+      background-color: $background;
+    }
+    .vjs-menu-button ul li:focus,
+    .vjs-menu-button ul li:hover,
+    .vjs-menu-button ul li.vjs-selected:focus,
+    .vjs-menu-button ul li.vjs-selected:hover {
+      color: $background;
+
+      @include background-color-with-alpha($color, 0.75);
     }
   }
 }

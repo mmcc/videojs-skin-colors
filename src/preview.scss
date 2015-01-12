@@ -1,0 +1,37 @@
+@import "colors";
+
+body {
+  font-family: Tahoma;
+  text-align: center;
+}
+
+section {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.video-js {
+  margin: 0 auto;
+}
+
+section#schemes {
+  margin-top: 10px;
+}
+
+section#schemes button {
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 110%;
+  padding: 5px 10px;
+}
+
+@each $theme, $pallet in $colors {
+  $color: map-get($pallet, color);
+  $background: map-get($pallet, background);
+
+  section#schemes ##{""+ $theme} {
+    color: $color;
+    background-color: $background;
+    border: 2px solid $color;
+  }
+}

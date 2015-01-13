@@ -1,4 +1,6 @@
-@each $theme, $pallet in $colors {
+$all-colors: map-merge($colors, $custom-colors);
+
+@each $theme, $pallet in $all-colors {
   $color: map-get($pallet, color);
   $background: map-get($pallet, background);
   // We need to do the extra quotes in the $theme interpolation to silence some warnings.

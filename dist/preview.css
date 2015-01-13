@@ -9,10 +9,6 @@ body {
   margin: 0 auto;
 }
 
-code {
-  text-align: left;
-}
-
 section {
   width: 100%;
   padding: 20px 0;
@@ -24,7 +20,8 @@ section .content {
 }
 
 section.header {
-  background-color: #66A8CC;
+  background-color: #555;
+  color: #ddd;
 }
 
 section.header a {
@@ -37,6 +34,11 @@ section.preview {
 
 section.usage {
   background-color: #ddd;
+  text-align: left;
+}
+
+section.usage h2 {
+  text-align: center;
 }
 
 section h1 {
@@ -54,10 +56,18 @@ section h1 {
   padding: 10px 20px;
 }
 
+.blue {
+  color: #66A8CC;
+}
+
 .schemes #blue {
   color: #66A8CC;
   background-color: #000000;
   border: 4px solid #66A8CC;
+}
+
+.pink {
+  color: #ed3093;
 }
 
 .schemes #pink {
@@ -66,10 +76,18 @@ section h1 {
   border: 4px solid #ed3093;
 }
 
+.grey {
+  color: #ccc;
+}
+
 .schemes #grey {
   color: #ccc;
   background-color: #000000;
   border: 4px solid #ccc;
+}
+
+.green {
+  color: #a5c047;
 }
 
 .schemes #green {
@@ -78,10 +96,18 @@ section h1 {
   border: 4px solid #a5c047;
 }
 
+.orange {
+  color: #f17d3a;
+}
+
 .schemes #orange {
   color: #f17d3a;
   background-color: #000000;
   border: 4px solid #f17d3a;
+}
+
+.inverted {
+  color: #000000;
 }
 
 .schemes #inverted {

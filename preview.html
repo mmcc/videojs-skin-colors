@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Video.js Colors Preview</title>
+  <title>Video.js Skin Colors: Preview</title>
 
   <link href="dist/preview.css" rel="stylesheet" type="text/css">
   <link href="dist/videojs-theme-colors.css" rel="stylesheet" type="text/css">
@@ -12,7 +12,7 @@
 
   <section class="header">
     <div class="content">
-      <h1>Video.js Theme: Colors</h1>
+      <h1>Video.js skin: <span class="blue">c</span><span class="pink">o</span><span class="grey">l</span><span class="green">o</span><span class="orange">r</span><span class="inverted">s</span></h1>
       <p>A collection of simple color schemes based on the base <a href="http://videojs.com">Video.js</a> styles.</p>
     </div>
   </section>
@@ -44,12 +44,38 @@
     <div class="content">
       <h2>Getting Started</h2>
 
-      <p>Include the appropriate CSS file.</p>
+      <h3>Hosted by RawGit</h3>
+      <p>
+        Include the appropriate CSS file. Thanks to <a href="https://rawgit.com" target="_blank">RawGit</a>, you can simply include the CSS
+        file directly from the Git repo based on the current version tag.
+      </p>
 
+      <pre><code class="xml">&lt;link href="//cdn.rawgit.com/mmcc/videojs-skin-colors/v1.0.1/dist/videojs-skin-colors.css" rel="stylesheet" type="text/css"&gt;</code></pre>
+
+      <h3>Your own build pipeline</h3>
+
+      <p>
+        If you're already using <a href="http://sass-lang.com" target="_blank">Sass</a>, you can simply import the skin's SCSS. First,
+        install the skin via <a href="http://npmjs.com" target="_blank">NPM</a>.
+      </p>
+      <pre><code class="bash">$ npm install --save-dev videojs-skin-colors</code></pre>
+
+      <p>You can set any variables you'd like before importing (namely the <code>$custom-colors</code> map).
+      </p>
+      <pre><code class="sass">$custom-colors: (
+  magenta: (
+    background: #000000,
+    color: #FF00FF
+  )
+);
+@import "/path/to/node_modules/vjs-theme-colors/src/videojs-theme-colors";</code></pre>
+
+      <p>Voila! You now have a shiny, new <code>vjs-theme-colors-magenta</code> class you can use!</p>
+
+      <h3>Once you've got your CSS...</h3>
       <p>Simply create a video element as you normally would when using Video.js, but add the corresponding color class.</p>
 
-      <pre><code class="xml">
-&lt;video id="vid" class="video-js vjs-theme-colors-blue" controls width="640" height="264" data-setup='{}'&gt;
+      <pre><code class="xml">&lt;video id="vid" class="video-js vjs-theme-colors-blue" controls width="640" height="264" data-setup='{}'&gt;
   &lt;source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4'&gt;
   &lt;source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm'&gt;
   &lt;source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg'&gt;
@@ -58,8 +84,7 @@
     To view this video please enable JavaScript, and consider upgrading to a web browser
     that &lt;a href="http://videojs.com/html5-video-support/" target="_blank"&gt;supports HTML5 video&lt;/a&gt;
   &lt;/p&gt;
-&lt;/video&gt;
-      </code></pre>
+&lt;/video&gt;</code></pre>
     </div>
   </section>
 

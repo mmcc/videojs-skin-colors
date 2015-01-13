@@ -11,10 +11,6 @@ body {
   margin: 0 auto;
 }
 
-code {
-  text-align: left;
-}
-
 section {
   width: 100%;
   padding: 20px 0;
@@ -26,17 +22,20 @@ section .content {
 }
 
 // I don't think map-get-z is behaving correctly, so manually do a map-get-z.
-$blue-pallet: map-get($colors, blue);
-section.header { background-color: map-get($blue-pallet, color); }
+// $blue-pallet: map-get($colors, blue);
+// section.header { background-color: map-get($blue-pallet, color); }
+section.header {
+  background-color: #555;
+  color: #ddd;
+}
 section.header a { color: #fff; }
 section.preview { background-color: #fff; }
-section.usage { background-color: #ddd; }
+section.usage { background-color: #ddd; text-align: left; }
+section.usage h2 { text-align: center; }
 
 section h1 { margin-top: 0px; }
 
-.schemes {
-  margin-top: 10px;
-}
+.schemes { margin-top: 10px; }
 
 .schemes button {
   border-radius: 10px;
@@ -48,6 +47,8 @@ section h1 { margin-top: 0px; }
 @each $theme, $pallet in $colors {
   $color: map-get($pallet, color);
   $background: map-get($pallet, background);
+
+  .#{""+ $theme} { color: $color; };
 
   .schemes ##{""+ $theme} {
     color: $color;

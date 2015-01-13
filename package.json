@@ -1,6 +1,6 @@
 {
   "name": "videojs-skin-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Videojs default skin with pretty colors",
   "main": "index.js",
   "scripts": {

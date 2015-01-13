@@ -19,33 +19,43 @@
 <body>
 
   <section class="header">
-    <h1>Video.js Theme: Colors</h1>
-    <p>
-      This is a collection of color schemes based on the default Video.js styles. Each color can be used by simply adding
-      the class of the corresponding color. For example, to use the blue scheme, simply add the class <code>vjs-theme-colors-blue</code>
-      to your video element.
-    </p>
+    <div class="content">
+      <h1>Video.js Theme: Colors</h1>
+      <p>A collection of simple color schemes based on the base <a href="http://videojs.com">Video.js</a> styles.</p>
+    </div>
   </section>
 
   <section class="preview">
-    <video id="preview-player" class="video-js vjs-theme-colors-blue" controls preload="auto" width="640" height="264"
-    poster="http://video-js.zencoder.com/oceans-clip.png"
-    data-setup='{}'>
-      <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4'>
-      <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm'>
-      <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg'>
-      <track kind="captions" src="../build/demo-files/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
-      <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-    </video>
+    <div class="content">
+      <video id="preview-player" class="video-js vjs-theme-colors-blue" controls preload="auto" width="640" height="264"
+      poster="http://video-js.zencoder.com/oceans-clip.png"
+      data-setup='{}'>
+        <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4'>
+        <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm'>
+        <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg'>
+        <track kind="captions" src="../build/demo-files/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+      </video>
+
+      <div class="schemes">
+        <button id="blue">Blue</button>
+        <button id="pink">Pink</button>
+        <button id="grey">Grey</button>
+        <button id="green">Green</button>
+        <button id="orange">Orange</button>
+        <button id="inverted">Inverted</button>
+      </div>
+    </div>
   </section>
 
-  <section id="schemes">
-    <button id="blue">Blue</button>
-    <button id="pink">Pink</button>
-    <button id="grey">Grey</button>
-    <button id="green">Green</button>
-    <button id="orange">Orange</button>
-    <button id="inverted">Inverted</button>
+  <section class="usage">
+    <div class="content">
+      <h2>Getting Started</h2>
+
+      <p>Simply create a video element as you normally would when using Video.js, but add the corresponding color class.</p>
+
+      <code>&lt;video class="video-js vjs-theme-colors-blue"&gt;...&lt;/video&gt;</code>
+    </div>
   </section>
 
   <script>
@@ -56,7 +66,7 @@
       player.addClass('vjs-theme-colors-'+ scheme);
     }
 
-    var schemes = $('#schemes button');
+    var schemes = $('.schemes button');
     schemes.click(function(e) {
       player.removeClass(currentScheme);
       var newScheme = 'vjs-theme-colors-'+ $(this).attr('id');

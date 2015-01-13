@@ -6,15 +6,7 @@
 
   <link href="dist/preview.css" rel="stylesheet" type="text/css">
   <link href="dist/videojs-theme-colors.css" rel="stylesheet" type="text/css">
-
-  <script src="node_modules/jquery/dist/jquery.js"></script>
-  <script src="node_modules/video.js/build/files/combined.video.js"></script>
-
-  <!-- Set the location of the flash SWF -->
-  <script>
-    videojs.options.flash.swf = '../node_modules/videojs-swf/dist/video-js.swf'
-  </script>
-
+  <link href="node_modules/highlight.js/styles/github.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -52,28 +44,25 @@
     <div class="content">
       <h2>Getting Started</h2>
 
+      <p>Include the appropriate CSS file.</p>
+
       <p>Simply create a video element as you normally would when using Video.js, but add the corresponding color class.</p>
 
-      <code>&lt;video class="video-js vjs-theme-colors-blue"&gt;...&lt;/video&gt;</code>
+      <pre><code class="xml">
+&lt;video id="vid" class="video-js vjs-theme-colors-blue" controls width="640" height="264" data-setup='{}'&gt;
+  &lt;source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4'&gt;
+  &lt;source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm'&gt;
+  &lt;source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg'&gt;
+  &lt;track kind="captions" src="../build/demo-files/demo.captions.vtt" srclang="en" label="English"&gt;&lt;/track&gt;
+  &lt;p class="vjs-no-js"&gt;
+    To view this video please enable JavaScript, and consider upgrading to a web browser
+    that &lt;a href="http://videojs.com/html5-video-support/" target="_blank"&gt;supports HTML5 video&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/video&gt;
+      </code></pre>
     </div>
   </section>
 
-  <script>
-    var currentScheme = 'vjs-theme-colors-green';
-    var player = videojs('preview-player');
-
-    function changeScheme(scheme) {
-      player.addClass('vjs-theme-colors-'+ scheme);
-    }
-
-    var schemes = $('.schemes button');
-    schemes.click(function(e) {
-      player.removeClass(currentScheme);
-      var newScheme = 'vjs-theme-colors-'+ $(this).attr('id');
-      player.addClass(newScheme);
-      currentScheme = newScheme;
-    });
-
-  </script>
+  <script src="dist/preview.js"></script>
 </body>
 </html>

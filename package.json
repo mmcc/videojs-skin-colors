@@ -1,14 +1,14 @@
 {
-  "name": "videojs-theme-colors",
+  "name": "videojs-skin-colors",
   "version": "1.0.0",
-  "description": "Videojs default theme with pretty colors",
+  "description": "Videojs default skin with pretty colors",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mmcc/videojs-theme-colors.git"
+    "url": "https://github.com/mmcc/videojs-skin-colors.git"
   },
   "keywords": [
     "Videojs"
@@ -16,10 +16,14 @@
   "author": "Matthew McClure <m@mmcc.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmcc/videojs-theme-colors/issues"
+    "url": "https://github.com/mmcc/videojs-skin-colors/issues"
   },
-  "homepage": "https://github.com/mmcc/videojs-theme-colors",
+  "homepage": "https://github.com/mmcc/videojs-skin-colors",
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.2.1",
+    "grunt-contrib-sass": "^0.8.1",
+    "highlight.js": "^8.4.0",
     "jquery": "^2.1.3",
     "video.js": "^4.11.3"
   }

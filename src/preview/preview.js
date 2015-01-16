@@ -4,13 +4,13 @@ var hljs = require('highlight.js');
 
 hljs.initHighlightingOnLoad();
 
-var currentScheme = 'vjs-theme-colors-green';
+var currentScheme = 'vjs-skin-colors-blue';
 var player = videojs('preview-player');
 
 var schemes = $('.schemes button');
 schemes.click(function(e) {
   player.removeClass(currentScheme);
-  var newScheme = 'vjs-theme-colors-'+ $(this).attr('id');
+  var newScheme = 'vjs-skin-colors-'+ $(this).attr('id');
   player.addClass(newScheme);
   currentScheme = newScheme;
 });

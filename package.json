@@ -20,9 +20,6 @@
     "url": "https://github.com/mmcc/videojs-skin-colors/issues"
   },
   "homepage": "https://mmcc.github.com/videojs-skin-colors",
-  "peerDependencies": {
-    "video.js": "5.x"
-  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-browserify": "^3.2.1",

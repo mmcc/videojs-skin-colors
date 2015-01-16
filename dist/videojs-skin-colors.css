@@ -1,220 +1,220 @@
-.vjs-theme-colors-blue {
+.vjs-skin-colors-blue {
   color: #66A8CC;
 }
-.vjs-theme-colors-blue .vjs-control-bar, .vjs-theme-colors-blue .vjs-big-play-button, .vjs-theme-colors-blue .vjs-menu-content {
+.vjs-skin-colors-blue .vjs-control-bar, .vjs-skin-colors-blue .vjs-big-play-button, .vjs-skin-colors-blue .vjs-menu-content {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.vjs-theme-colors-blue .vjs-load-progress {
+.vjs-skin-colors-blue .vjs-load-progress {
   background-color: #66A8CC;
   background-color: rgba(102, 168, 204, 0.5);
 }
-.vjs-theme-colors-blue .vjs-play-progress {
+.vjs-skin-colors-blue .vjs-play-progress {
   background-color: #66A8CC;
 }
-.vjs-theme-colors-blue .vjs-slider {
+.vjs-skin-colors-blue .vjs-slider {
   background-color: #66A8CC;
   background-color: rgba(102, 168, 204, 0.4);
 }
-.vjs-theme-colors-blue .vjs-volume-level {
+.vjs-skin-colors-blue .vjs-volume-level {
   background-color: #66A8CC;
 }
-.vjs-theme-colors-blue .vjs-big-play-button,
-.vjs-theme-colors-blue .vjs-big-play-button:focus, .vjs-theme-colors-blue:hover .vjs-big-play-button {
+.vjs-skin-colors-blue .vjs-big-play-button,
+.vjs-skin-colors-blue .vjs-big-play-button:focus, .vjs-skin-colors-blue:hover .vjs-big-play-button {
   border-color: #66A8CC;
 }
-.vjs-theme-colors-blue .vjs-menu-button ul li.vjs-selected {
+.vjs-skin-colors-blue .vjs-menu-button ul li.vjs-selected {
   background-color: #000000;
 }
-.vjs-theme-colors-blue .vjs-menu-button ul li:focus,
-.vjs-theme-colors-blue .vjs-menu-button ul li:hover,
-.vjs-theme-colors-blue .vjs-menu-button ul li.vjs-selected:focus,
-.vjs-theme-colors-blue .vjs-menu-button ul li.vjs-selected:hover {
+.vjs-skin-colors-blue .vjs-menu-button ul li:focus,
+.vjs-skin-colors-blue .vjs-menu-button ul li:hover,
+.vjs-skin-colors-blue .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-skin-colors-blue .vjs-menu-button ul li.vjs-selected:hover {
   color: #000000;
   background-color: #66A8CC;
   background-color: rgba(102, 168, 204, 0.75);
 }
 
-.vjs-theme-colors-pink {
+.vjs-skin-colors-pink {
   color: #ed3093;
 }
-.vjs-theme-colors-pink .vjs-control-bar, .vjs-theme-colors-pink .vjs-big-play-button, .vjs-theme-colors-pink .vjs-menu-content {
+.vjs-skin-colors-pink .vjs-control-bar, .vjs-skin-colors-pink .vjs-big-play-button, .vjs-skin-colors-pink .vjs-menu-content {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.vjs-theme-colors-pink .vjs-load-progress {
+.vjs-skin-colors-pink .vjs-load-progress {
   background-color: #ed3093;
   background-color: rgba(237, 48, 147, 0.5);
 }
-.vjs-theme-colors-pink .vjs-play-progress {
+.vjs-skin-colors-pink .vjs-play-progress {
   background-color: #ed3093;
 }
-.vjs-theme-colors-pink .vjs-slider {
+.vjs-skin-colors-pink .vjs-slider {
   background-color: #ed3093;
   background-color: rgba(237, 48, 147, 0.4);
 }
-.vjs-theme-colors-pink .vjs-volume-level {
+.vjs-skin-colors-pink .vjs-volume-level {
   background-color: #ed3093;
 }
-.vjs-theme-colors-pink .vjs-big-play-button,
-.vjs-theme-colors-pink .vjs-big-play-button:focus, .vjs-theme-colors-pink:hover .vjs-big-play-button {
+.vjs-skin-colors-pink .vjs-big-play-button,
+.vjs-skin-colors-pink .vjs-big-play-button:focus, .vjs-skin-colors-pink:hover .vjs-big-play-button {
   border-color: #ed3093;
 }
-.vjs-theme-colors-pink .vjs-menu-button ul li.vjs-selected {
+.vjs-skin-colors-pink .vjs-menu-button ul li.vjs-selected {
   background-color: #000000;
 }
-.vjs-theme-colors-pink .vjs-menu-button ul li:focus,
-.vjs-theme-colors-pink .vjs-menu-button ul li:hover,
-.vjs-theme-colors-pink .vjs-menu-button ul li.vjs-selected:focus,
-.vjs-theme-colors-pink .vjs-menu-button ul li.vjs-selected:hover {
+.vjs-skin-colors-pink .vjs-menu-button ul li:focus,
+.vjs-skin-colors-pink .vjs-menu-button ul li:hover,
+.vjs-skin-colors-pink .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-skin-colors-pink .vjs-menu-button ul li.vjs-selected:hover {
   color: #000000;
   background-color: #ed3093;
   background-color: rgba(237, 48, 147, 0.75);
 }
 
-.vjs-theme-colors-grey {
+.vjs-skin-colors-grey {
   color: #ccc;
 }
-.vjs-theme-colors-grey .vjs-control-bar, .vjs-theme-colors-grey .vjs-big-play-button, .vjs-theme-colors-grey .vjs-menu-content {
+.vjs-skin-colors-grey .vjs-control-bar, .vjs-skin-colors-grey .vjs-big-play-button, .vjs-skin-colors-grey .vjs-menu-content {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.vjs-theme-colors-grey .vjs-load-progress {
+.vjs-skin-colors-grey .vjs-load-progress {
   background-color: #ccc;
   background-color: rgba(204, 204, 204, 0.5);
 }
-.vjs-theme-colors-grey .vjs-play-progress {
+.vjs-skin-colors-grey .vjs-play-progress {
   background-color: #ccc;
 }
-.vjs-theme-colors-grey .vjs-slider {
+.vjs-skin-colors-grey .vjs-slider {
   background-color: #ccc;
   background-color: rgba(204, 204, 204, 0.4);
 }
-.vjs-theme-colors-grey .vjs-volume-level {
+.vjs-skin-colors-grey .vjs-volume-level {
   background-color: #ccc;
 }
-.vjs-theme-colors-grey .vjs-big-play-button,
-.vjs-theme-colors-grey .vjs-big-play-button:focus, .vjs-theme-colors-grey:hover .vjs-big-play-button {
+.vjs-skin-colors-grey .vjs-big-play-button,
+.vjs-skin-colors-grey .vjs-big-play-button:focus, .vjs-skin-colors-grey:hover .vjs-big-play-button {
   border-color: #ccc;
 }
-.vjs-theme-colors-grey .vjs-menu-button ul li.vjs-selected {
+.vjs-skin-colors-grey .vjs-menu-button ul li.vjs-selected {
   background-color: #000000;
 }
-.vjs-theme-colors-grey .vjs-menu-button ul li:focus,
-.vjs-theme-colors-grey .vjs-menu-button ul li:hover,
-.vjs-theme-colors-grey .vjs-menu-button ul li.vjs-selected:focus,
-.vjs-theme-colors-grey .vjs-menu-button ul li.vjs-selected:hover {
+.vjs-skin-colors-grey .vjs-menu-button ul li:focus,
+.vjs-skin-colors-grey .vjs-menu-button ul li:hover,
+.vjs-skin-colors-grey .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-skin-colors-grey .vjs-menu-button ul li.vjs-selected:hover {
   color: #000000;
   background-color: #ccc;
   background-color: rgba(204, 204, 204, 0.75);
 }
 
-.vjs-theme-colors-green {
+.vjs-skin-colors-green {
   color: #a5c047;
 }
-.vjs-theme-colors-green .vjs-control-bar, .vjs-theme-colors-green .vjs-big-play-button, .vjs-theme-colors-green .vjs-menu-content {
+.vjs-skin-colors-green .vjs-control-bar, .vjs-skin-colors-green .vjs-big-play-button, .vjs-skin-colors-green .vjs-menu-content {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.vjs-theme-colors-green .vjs-load-progress {
+.vjs-skin-colors-green .vjs-load-progress {
   background-color: #a5c047;
   background-color: rgba(165, 192, 71, 0.5);
 }
-.vjs-theme-colors-green .vjs-play-progress {
+.vjs-skin-colors-green .vjs-play-progress {
   background-color: #a5c047;
 }
-.vjs-theme-colors-green .vjs-slider {
+.vjs-skin-colors-green .vjs-slider {
   background-color: #a5c047;
   background-color: rgba(165, 192, 71, 0.4);
 }
-.vjs-theme-colors-green .vjs-volume-level {
+.vjs-skin-colors-green .vjs-volume-level {
   background-color: #a5c047;
 }
-.vjs-theme-colors-green .vjs-big-play-button,
-.vjs-theme-colors-green .vjs-big-play-button:focus, .vjs-theme-colors-green:hover .vjs-big-play-button {
+.vjs-skin-colors-green .vjs-big-play-button,
+.vjs-skin-colors-green .vjs-big-play-button:focus, .vjs-skin-colors-green:hover .vjs-big-play-button {
   border-color: #a5c047;
 }
-.vjs-theme-colors-green .vjs-menu-button ul li.vjs-selected {
+.vjs-skin-colors-green .vjs-menu-button ul li.vjs-selected {
   background-color: #000000;
 }
-.vjs-theme-colors-green .vjs-menu-button ul li:focus,
-.vjs-theme-colors-green .vjs-menu-button ul li:hover,
-.vjs-theme-colors-green .vjs-menu-button ul li.vjs-selected:focus,
-.vjs-theme-colors-green .vjs-menu-button ul li.vjs-selected:hover {
+.vjs-skin-colors-green .vjs-menu-button ul li:focus,
+.vjs-skin-colors-green .vjs-menu-button ul li:hover,
+.vjs-skin-colors-green .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-skin-colors-green .vjs-menu-button ul li.vjs-selected:hover {
   color: #000000;
   background-color: #a5c047;
   background-color: rgba(165, 192, 71, 0.75);
 }
 
-.vjs-theme-colors-orange {
+.vjs-skin-colors-orange {
   color: #f17d3a;
 }
-.vjs-theme-colors-orange .vjs-control-bar, .vjs-theme-colors-orange .vjs-big-play-button, .vjs-theme-colors-orange .vjs-menu-content {
+.vjs-skin-colors-orange .vjs-control-bar, .vjs-skin-colors-orange .vjs-big-play-button, .vjs-skin-colors-orange .vjs-menu-content {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.vjs-theme-colors-orange .vjs-load-progress {
+.vjs-skin-colors-orange .vjs-load-progress {
   background-color: #f17d3a;
   background-color: rgba(241, 125, 58, 0.5);
 }
-.vjs-theme-colors-orange .vjs-play-progress {
+.vjs-skin-colors-orange .vjs-play-progress {
   background-color: #f17d3a;
 }
-.vjs-theme-colors-orange .vjs-slider {
+.vjs-skin-colors-orange .vjs-slider {
   background-color: #f17d3a;
   background-color: rgba(241, 125, 58, 0.4);
 }
-.vjs-theme-colors-orange .vjs-volume-level {
+.vjs-skin-colors-orange .vjs-volume-level {
   background-color: #f17d3a;
 }
-.vjs-theme-colors-orange .vjs-big-play-button,
-.vjs-theme-colors-orange .vjs-big-play-button:focus, .vjs-theme-colors-orange:hover .vjs-big-play-button {
+.vjs-skin-colors-orange .vjs-big-play-button,
+.vjs-skin-colors-orange .vjs-big-play-button:focus, .vjs-skin-colors-orange:hover .vjs-big-play-button {
   border-color: #f17d3a;
 }
-.vjs-theme-colors-orange .vjs-menu-button ul li.vjs-selected {
+.vjs-skin-colors-orange .vjs-menu-button ul li.vjs-selected {
   background-color: #000000;
 }
-.vjs-theme-colors-orange .vjs-menu-button ul li:focus,
-.vjs-theme-colors-orange .vjs-menu-button ul li:hover,
-.vjs-theme-colors-orange .vjs-menu-button ul li.vjs-selected:focus,
-.vjs-theme-colors-orange .vjs-menu-button ul li.vjs-selected:hover {
+.vjs-skin-colors-orange .vjs-menu-button ul li:focus,
+.vjs-skin-colors-orange .vjs-menu-button ul li:hover,
+.vjs-skin-colors-orange .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-skin-colors-orange .vjs-menu-button ul li.vjs-selected:hover {
   color: #000000;
   background-color: #f17d3a;
   background-color: rgba(241, 125, 58, 0.75);
 }
 
-.vjs-theme-colors-inverted {
+.vjs-skin-colors-inverted {
   color: #000000;
 }
-.vjs-theme-colors-inverted .vjs-control-bar, .vjs-theme-colors-inverted .vjs-big-play-button, .vjs-theme-colors-inverted .vjs-menu-content {
+.vjs-skin-colors-inverted .vjs-control-bar, .vjs-skin-colors-inverted .vjs-big-play-button, .vjs-skin-colors-inverted .vjs-menu-content {
   background-color: #ffffff;
   background-color: rgba(255, 255, 255, 0.7);
 }
-.vjs-theme-colors-inverted .vjs-load-progress {
+.vjs-skin-colors-inverted .vjs-load-progress {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.vjs-theme-colors-inverted .vjs-play-progress {
+.vjs-skin-colors-inverted .vjs-play-progress {
   background-color: #000000;
 }
-.vjs-theme-colors-inverted .vjs-slider {
+.vjs-skin-colors-inverted .vjs-slider {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.4);
 }
-.vjs-theme-colors-inverted .vjs-volume-level {
+.vjs-skin-colors-inverted .vjs-volume-level {
   background-color: #000000;
 }
-.vjs-theme-colors-inverted .vjs-big-play-button,
-.vjs-theme-colors-inverted .vjs-big-play-button:focus, .vjs-theme-colors-inverted:hover .vjs-big-play-button {
+.vjs-skin-colors-inverted .vjs-big-play-button,
+.vjs-skin-colors-inverted .vjs-big-play-button:focus, .vjs-skin-colors-inverted:hover .vjs-big-play-button {
   border-color: #000000;
 }
-.vjs-theme-colors-inverted .vjs-menu-button ul li.vjs-selected {
+.vjs-skin-colors-inverted .vjs-menu-button ul li.vjs-selected {
   background-color: #ffffff;
 }
-.vjs-theme-colors-inverted .vjs-menu-button ul li:focus,
-.vjs-theme-colors-inverted .vjs-menu-button ul li:hover,
-.vjs-theme-colors-inverted .vjs-menu-button ul li.vjs-selected:focus,
-.vjs-theme-colors-inverted .vjs-menu-button ul li.vjs-selected:hover {
+.vjs-skin-colors-inverted .vjs-menu-button ul li:focus,
+.vjs-skin-colors-inverted .vjs-menu-button ul li:hover,
+.vjs-skin-colors-inverted .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-skin-colors-inverted .vjs-menu-button ul li.vjs-selected:hover {
   color: #ffffff;
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.75);

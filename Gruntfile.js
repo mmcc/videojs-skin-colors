@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     watch: {
       scripts: {
-        files: ['./src/*'],
+        files: ['./src/**/*'],
         tasks: ['sass', 'browserify'],
         options: {
           spawn: false,
@@ -16,16 +16,27 @@ module.exports = function(grunt) {
         options: {                       // Target options
           style: 'expanded'
         },
-        files: {                         // Dictionary of files
-          'dist/videojs-skin-colors.css': 'src/videojs-skin-colors.scss',       // 'destination': 'source'
-          'dist/preview.css': 'src/preview.scss'
+        files: [{
+          expand: true,
+          cwd: 'src',
+          src: ['**/*.scss'],
+          dest: 'dist',
+          ext: '.css'
+        }]
+      }
+    },
+    connect: {
+      dev: {
+        options: {
+          port: 9999,
+          livereload: true
         }
       }
     },
     browserify: {
       dist: {
         files: {
-          'dist/preview.js': ['src/preview.js'],
+          'dist/preview/preview.js': ['src/preview/preview.js'],
         }
       }
     }
@@ -34,9 +45,11 @@ module.exports = function(grunt) {
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-browserify');
 
   // Default task(s).
   grunt.registerTask('default', ['sass', 'browserify']);
+  grunt.registerTask('connect-watch', ['connect', 'watch']);
 
 };

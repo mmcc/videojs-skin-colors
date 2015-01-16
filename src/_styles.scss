@@ -5,7 +5,7 @@ $all-colors: map-merge($colors, $custom-colors);
   $background: map-get($pallet, background);
   // We need to do the extra quotes in the $theme interpolation to silence some warnings.
   // The SCSS compiler seems to think we're trying to use the pallet names as a color value.  ¯\_(ツ)_/¯
-  .vjs-theme-colors-#{""+ $theme} {
+  .vjs-skin-colors-#{""+ $theme} {
     color: $color;
 
     .vjs-control-bar, .vjs-big-play-button, .vjs-menu-content {

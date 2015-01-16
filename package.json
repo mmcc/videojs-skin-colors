@@ -11,14 +11,18 @@
     "url": "https://github.com/mmcc/videojs-skin-colors.git"
   },
   "keywords": [
-    "Videojs"
+    "videojs",
+    "videojs-skin"
   ],
   "author": "Matthew McClure <m@mmcc.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mmcc/videojs-skin-colors/issues"
   },
-  "homepage": "https://github.com/mmcc/videojs-skin-colors",
+  "homepage": "https://mmcc.github.com/videojs-skin-colors",
+  "peerDependencies": {
+    "video.js": "5.x"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-browserify": "^3.2.1",
